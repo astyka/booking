@@ -62,7 +62,7 @@ def test_booking_login_positive(browser):
   click = ActionChains(browser)
   action.click_and_hold(element)
   action.perform()
-  sleep(2)
+  sleep(20)
 
 def test_booking_login_negative(browser):
   # Set up some test case data
